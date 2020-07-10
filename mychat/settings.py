@@ -27,6 +27,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'mychat',
     'chat',
     'channels',
 ]
@@ -60,7 +61,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'mychat.wsgi.application'
-ASGI_APPLICATION = "mychat.routing.application"
+ASGI_APPLICATION = 'mychat.routing.application'
 
 
 CHANNEL_LAYERS = {
